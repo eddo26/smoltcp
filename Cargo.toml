@@ -356,5 +356,9 @@ required-features = ["std", "medium-ethernet", "medium-ip", "phy-tuntap_interfac
 name = "slaac"
 required-features = ["std", "medium-ethernet", "medium-ip", "phy-tuntap_interface", "proto-ipv6", "socket-udp"]
 
+[[example]]
+name = "crash_sack_overflow"
+required-features = ["std", "medium-ip", "proto-ipv4", "socket-tcp"]
+
 [profile.release]
 debug = 2
